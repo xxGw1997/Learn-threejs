@@ -1,0 +1,19 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "errno": 2,
+    "code": "ELIFECYCLE",
+    "pkgid": "@",
+    "stage": "dev",
+    "script": "webpack serve --config ./bundler/webpack.dev.js",
+    "err": {
+      "name": "pnpm",
+      "message": "@ dev: `webpack serve --config ./bundler/webpack.dev.js`\nExit status 2",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: @ dev: `webpack serve --config ./bundler/webpack.dev.js`\nExit status 2\n    at EventEmitter.<anonymous> (E:\\node\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:105830:20)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (E:\\node\\node_global\\node_modules\\pnpm\\dist\\pnpm.cjs:92391:18)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
